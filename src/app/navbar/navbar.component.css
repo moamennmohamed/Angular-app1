@@ -1,0 +1,19 @@
+.navbar {
+    background-color: rgb(18, 181, 148);
+  
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 55;
+  }
+  .myLogo {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .myLink {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0.5rem;
+  }
+  

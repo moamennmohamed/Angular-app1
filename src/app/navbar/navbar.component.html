@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg  pt-4 pb-4" [ngStyle]="{ height: navbarHeight }">
+  <div class="container ">
+    <a class="navbar-brand myLogo text-uppercase text-white" routerLink="home">Start Framework</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav  ms-auto  ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link myLink text-white text-uppercase " routerLink="about"
+              routerLinkActive="bg-black rounded">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link myLink text-white text-uppercase" routerLink="portfolio"
+              routerLinkActive="bg-black rounded">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link myLink text-white text-uppercase overflow-hidden" routerLink="contact"
+              routerLinkActive="bg-black rounded">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

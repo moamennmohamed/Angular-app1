@@ -1,0 +1,38 @@
+.contact {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  width: 100%;
+  height: 90vh;
+}
+
+.content .before,
+.content .after {
+  width: 80px;
+  height: 4px;
+  background-color: #000;
+  position: relative;
+  top: 12px;
+}
+
+.myinput {
+  outline: none !important;
+  border-bottom: 1px solid #d9d9dc !important;
+  border-top: none;
+  border-inline: none;
+}
+
+.myLabel {
+  position: relative;
+  top: 50px;
+  color: #12b594;
+  transition: top 0.5s ease-in-out;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.top {
+  top: 0;
+}
+
+.btn-color {
+  background-color: #12b594 !important;
+}

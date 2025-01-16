@@ -1,0 +1,64 @@
+<div class="contact">
+    <div class="container">
+      <div class="title">
+        <h1 class="text-uppercase m-2 text-center fw-bold">conatct section</h1>
+        <div class="content d-flex justify-content-center">
+          <div class="before fw-bold"></div>
+          <div class="icon">
+            <i class="fa-solid fa-star ms-2 me-2 fw-bold"></i>
+          </div>
+          <div class="after fw-bold"></div>
+        </div>
+      </div>
+
+
+
+      <form class="w-50 mt-5 p-3 mx-auto">
+        <label class="myLabel" [class.top]="userName" for="userName">userName : </label>
+  
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="userName"
+          class="myinput position-relative w-100 p-3"
+          [(ngModel)]="userName"
+        />
+    
+        <label class="myLabel" [class.top]="userAge" for="userAge">userAge : </label>
+    
+        <input
+          type="number"
+          name="userAge"
+          id="userAge"
+          placeholder="userAge"
+          class="myinput position-relative w-100 p-3"
+          [(ngModel)]="userAge"
+        />
+    
+        <label class="myLabel" [class.top]="userEmail" for="userEmail">userEmail : </label>
+    
+        <input
+          type="email"
+          name="userEmail"
+          id="userEmail"
+          placeholder="userEmail"
+          class="myinput position-relative w-100 p-3"
+          [(ngModel)]="userEmail"
+        />
+    
+        <label class="myLabel" [class.top]="userPass" for="userPassword">userPassword : </label>
+    
+        <input
+          type="password"
+          name="userPassword"
+          id="userPassword"
+          placeholder="userPassword"
+          class="myinput position-relative w-100 p-3"
+          [(ngModel)]="userPass"
+        />
+    
+        <button   class="btn mt-5 text-white fw-bold btn-color">Send Mesage</button>
+      </form>
+    </div>
+</div>
